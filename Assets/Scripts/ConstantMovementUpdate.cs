@@ -19,7 +19,7 @@ namespace Supyrb
 
 		void Update()
 		{
-			transform.position = transform.position + movementVector * Time.smoothDeltaTime;
+			transform.Translate(movementVector * Time.smoothDeltaTime);
 		}
     }
 }
